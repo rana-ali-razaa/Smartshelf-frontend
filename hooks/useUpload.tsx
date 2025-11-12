@@ -46,7 +46,7 @@ export const useUpload = () => {
             // For demo: log the FormData keys and types
             console.group("Upload form data (demo)")
             for (const pair of fd.entries()) {
-                const [k, v] = pair as [string, any]
+                const [k, v] = pair as [string, {name: string; type: string; size: number} | string]
                 if (v instanceof File) {
                     console.log(k, v.name, v.type, v.size)
                 } else {

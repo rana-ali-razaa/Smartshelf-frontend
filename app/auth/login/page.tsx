@@ -53,7 +53,7 @@ export default function LoginPage() {
                 )}
 
                 <p className="mt-6 text-sm text-muted-foreground">
-                    Don't have an account? <a href="/auth/signup" className="text-primary underline">Create one</a>
+                    Don&apos;t have an account? <a href="/auth/signup" className="text-primary underline">Create one</a>
                 </p>
             </div>
         </div>
